@@ -1,6 +1,6 @@
 const fs = require('fs');
 const { Sequelize } = require('sequelize');
-const isVPS = !(__dirname.startsWith("/rgnk") || __dirname.startsWith("/skl"));
+const isVPS = !(__dirname.startsWith("/rgnk") || __dirname.startsWith("juice wrld"));
 const isHeroku = __dirname.startsWith("/skl");
 const isKoyeb = __dirname.startsWith("/rgnk");
 const isRailway = __dirname.startsWith("/railway");
